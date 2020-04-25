@@ -1,0 +1,89 @@
+
+/* #e91e23 kirmizi
+#02b2e7 mavi
+#fabc16 turuncu */
+
+
+.App {
+  text-align: center;
+}
+input{
+width: 200px;
+padding: 15px 22px;
+margin: 10px 5px;
+box-sizing: border-box;  
+border: 1px solid yellowgreen;
+border-radius: 4px;
+}
+button {
+  
+  background-image: linear-gradient(-315deg, yellow 20%,yellowgreen 100%);
+  border: 1px solid yellow;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #191919;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.12), 0 2px 2px 1px rgba(0, 0, 0, 0.24);
+  transition: all 0.2 ease-in;
+}
+
+
+
+/* Add a right margin to each icon */
+.fa {
+  margin-left: -12px;
+  margin-right: 8px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  
+  list-style-type: none;
+  justify-content: center;
+
+}
+li, Link {
+  margin: 7px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  color: teal;
+}
+
+.card_Container{
+      /* background-color: red; */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+     
+}
+
+.card{
+  background-color:#edf2ef;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin:10px;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.12), 0 2px 2px 1px rgba(0, 0, 0, 0.24);
+}
+.cardContent{
+  /* background-color: yellow; */
+  margin:10px;
+  text-align: left;
+  width: 92%;
+}
+.cardIc{
+  /* background-color: sienna; */
+  margin:10px;
+  font-size: x-large;
+  width: 8%;
+  cursor: pointer;
+}
+
+img{
+  height: 25%;
+  width: 25%;
+  margin:0px;
+  padding: 0px;
+}
